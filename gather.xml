@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather method="POST" numDigits="1" action="{{ postprefix }}forward">
+        <Play>greeting.wav</Play>
+        <Say>For Kevin, please press 1. For Becca, please press 2.</Say>
+    </Gather>
+</Response>

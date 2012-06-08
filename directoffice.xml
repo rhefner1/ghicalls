@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Play>greeting.wav</Play>
+    <Dial timeout="500">919-438-2444</Dial>
+</Response>
