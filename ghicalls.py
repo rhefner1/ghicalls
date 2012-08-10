@@ -55,10 +55,7 @@ def xml_response(handler, page, templatevalues=None):
 
 class GatherPage(webapp.RequestHandler):
     """
-    Initial user greeting.  Plays the welcome audio file then reads the
-    "enter zip code" message.  The Play and Say are wrapped in a Gather
-    verb to collect the 5 digit zip code from the caller.  The Gather
-    will post the results to /weather
+    Initial user greeting.
     """
     def get(self):
         self.post()
