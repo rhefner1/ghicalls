@@ -1,7 +1,8 @@
 application: ghicalls
-version: 1a
-runtime: python
+version: 2
+runtime: python27
 api_version: 1
+threadsafe: no
 
 handlers:
 - url: /(.*\.(mp3|wav))
